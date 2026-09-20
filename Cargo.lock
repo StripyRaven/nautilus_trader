@@ -6555,6 +6555,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "nautilus-nq"
+version = "0.65.0"
+dependencies = [
+ "anyhow",
+ "async-trait",
+ "nautilus-common",
+ "nautilus-core",
+ "nautilus-execution",
+ "nautilus-model",
+ "rmp-serde",
+ "serde",
+ "thiserror 2.0.20",
+ "tokio",
+ "tracing",
+ "uuid",
+]
+
+[[package]]
 name = "nautilus-okx"
 version = "0.65.0"
 dependencies = [
