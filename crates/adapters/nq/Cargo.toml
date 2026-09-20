@@ -1,0 +1,20 @@
+[package]
+name = "nautilus-nq"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "NautilusTrader adapter for QUIK via Trans2QUIK Gateway"
+license.workspace = true
+
+[dependencies]
+nautilus-core = { workspace = true }
+nautilus-model = { workspace = true }
+nautilus-common = { workspace = true }
+nautilus-execution = { workspace = true }
+
+tokio = { workspace = true, features = ["net", "sync", "macros", "rt-multi-thread"] }
+serde = { workspace = true, features = ["derive"] }
+rmp-serde = { workspace = true }
+tracing = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true, features = ["v4"] }

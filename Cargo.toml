@@ -17,6 +17,7 @@ members = [
   "crates/adapters/interactive_brokers",
   "crates/adapters/kraken",
   "crates/adapters/lighter",
+  "crates/adapters/nq",
   "crates/adapters/okx",
   "crates/adapters/polymarket",
   "crates/adapters/sandbox",
